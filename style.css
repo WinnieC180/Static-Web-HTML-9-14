@@ -133,10 +133,12 @@ table {
   font-family: "helveica neue", helvetica, sans-serif;
   border-collapse: collapse; /* keeps all the rows and columns of the table together */
   width: 100%;
+  color: #464d8b;
+  font-size: 17px;
 }
 
 td, th {
-  border: 1px solid #565baa;
+  border: 1px solid #3d438d;
   text-align: left;
   padding: 10px;
 }
@@ -161,7 +163,8 @@ video {
 }
 
 form {
-  margin-left: 8px; 
+  margin: auto;
+  width: 40%; 
 }
 
 label {
@@ -169,4 +172,44 @@ label {
   color: #1d256d; 
   font-size: large;
   margin-left: 8px;
+}
+
+.skillz {
+  display: flex;
+}
+
+.form {
+  background-color: #abd0f3;
+  border-radius: 10px;  
+  margin-top: -30px;
+  margin-left: 30px;
+  width: 40%;
+}
+
+.form p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.submit {
+  background-color: #8db4e7;
+  border-color: #373e81;
+  border-width: 3px;
+  margin-bottom: 10px;
+  margin-left: 18px;
+}
+
+.favTab {
+  color:#739ad4e5;
+}
+
+.homeTab {
+  display: flex;
+}
+
+iframe {
+  margin-top: -30px;
+  margin-left: 30px;
+  width: 40%;
 }
